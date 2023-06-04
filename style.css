@@ -113,28 +113,16 @@ body, html {
     width: 100%;
     height: 100%;
 }
-.section2{
-    background: red; 
-}
-.section3{
-    background: pink; 
-}
+
+
 .section4{
     grid-column: 5/7;
-    background: black;
 }
-.section5{
-    background: grey;
-}
-.section6{
-    background: violet;
-}
+
 .section7{
-    background: olive ;
     grid-column: 5/7;
 }
 .section8{
-    background: blue;
     grid-column: 1/3;
     grid-row: 3/5; 
 }
@@ -145,7 +133,7 @@ body, html {
 
 @media screen and (min-width: 576px) and (max-width: 768px) {
     .image-wrapper .container{
-        width: 50%;
+        width: 80%;
     }
     .carousel-item img{
         height: 50vh;
@@ -163,7 +151,7 @@ body, html {
 @media screen and (min-width: 200px) and (max-width: 576px) {
     .image-wrapper .container{
         display: grid;
-        width: 50%;
+        width: 80%;
     }
     .navbar{
         width: 100%;
